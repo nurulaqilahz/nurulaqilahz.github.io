@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inconsolata', monospace;
+  //background: #c9ddff;
+}
+
+body {
+  background-image: url(marblepink.jpg);
+  background-size: 100vh;
+}
+
+.header{
+  background-color: #ffffbf;
+  border: 1px solid black;
+  text-align: center;
+  width: 50%;
+  height: 25%;
+  margin-top: 4%;
+  margin-left: 25%;
+  margin-bottom: 3%;
+  padding: 20px 15px 15px 15px;
+}
+
+.myself{
+  padding-top: 6%;
+  padding-right: 3%;
+  padding-left: 3%;
+  text-align: center;
+  float: right;
+}
+
+/* For each container */
+.about{
+  background-color: #ffffbf;
+  border: 1px solid black;
+  //border-radius: 15px 15px 15px 15px;
+  //text-align: center;
+  width: 50%;
+  height: 25%;
+  margin: 0% 25% 3% 25%;
+  //margin-left: 25%;
+  padding: 20px 15px 20px 15px;
+}
+
+.about > h1 {
+  padding-left: 15px;
+}
+
+.about > h4 {
+  padding-left: 15%;
+}
+
+.about > ul {
+  padding-left: 20%;
+}
+
+/* Skills */
+
+.sect_skill{
+  background-color: #ffffbf;
+  border: 1px solid black;
+  //border-radius: 15px 15px 15px 15px;
+  //text-align: center;
+  width: 50%;
+  height: 25%;
+  margin: 0% 25% 3% 25%;
+  //margin-left: 25%;
+  padding: 20px 15px 20px 15px;
+}
+
+.sect_skill > h1 {
+  padding-left: 15px;
+}
+
+.sect_skill > h4 {
+  padding-left: 15%;
+}
+
+.sect_skill > ul > li{
+  padding-left: 20%;
+  list-style-type: none;
+}
+
+
+/* Skills bar */
+* {box-sizing: border-box}
+
+.container {
+  width: 70%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding: 10px;
+  color: white;
+}
+
+.html {width: 75%; background-color: #ff91c6; list-style-type: none;}
+.cplus {width: 67%; background-color: #ff91c6; list-style-type: none;}
+.english {width: 85%; background-color: #ff91c6; list-style-type: none;}
+.malay {width: 93%; background-color: #ff91c6; list-style-type: none;}
+
+/* Slideshow */
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 70%;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
