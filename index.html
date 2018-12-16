@@ -1,1 +1,180 @@
-<h1> Hello my name is 'Aqilah </h1>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+
+    <title>1719406 Aqilah</title>
+    <!-- <link rel="shortcut icon" href="pet.png"> -->
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+
+    <div class="header">
+      <img src="aqilah.jpg" alt="" style="height:250px; width:250px; border-radius: 50%;">
+
+      <div class="myself">
+        <h1>Nurul 'Aqilah Binti Zakaria</h1>
+        <br>
+        <h4><img src="https://img.icons8.com/doodle/31/000000/phone.png"> 013-3341393</h4>
+        <h4><img src="https://img.icons8.com/dusk/30/000000/gmail.png"> naaqilahz@gmail.com</h4>
+        <br>
+        <h5>A passionate person that would love to try something new <br>to gain more experience, knowledge and skills!</h5>
+        <h5>Capable on working under pressure and a fast learner!</h5>
+
+      </div>
+    </div>
+    <div class="about">
+      <h1> <img src="https://img.icons8.com/office/50/000000/student-female.png">&nbsp<mark style="background-color: pink;">Education</mark></h1>
+      <br>
+        <h4>2010- 2014: Sekolah Menengah Kebangsaan Jalan Empat, Bandar Baru Bangi</h4>
+          <ul>
+            <li>Penilaian Menengah Rendah [2012]</li>
+            <li>Sijil Pelajaran Malaysia [2014]</li>
+          </ul> <br>
+        <h4>2015-2017: Center of Foundation Studies IIUM, Petaling Jaya</h4>
+          <ul>
+            <li>Foundation in Information and Communication Technology</li>
+          </ul><br>
+        <h4>2017-Now: International Islamic University Malaysia, Gombak</h4>
+          <ul>
+            <li>Bachelor of Information Technology</li>
+          </ul>
+
+    </div>
+
+    <div class="about">
+      <h1><img src="https://img.icons8.com/color/50/000000/training.png">&nbsp<mark style="background-color: pink;">Working Experience</mark></h1>
+      <br>
+
+        <h4>July- August 2017: Ariani Bandar Baru Bangi</h4>
+          <ul>
+            <li>Work as a sale promoter</li>
+          </ul> <br>
+        <h4>August 2018: CD Solutions Sdn Bhd</h4>
+          <ul>
+            <li>Tagging and labelling library books in Uniten Library</li>
+          </ul> <br>
+        <h4>May 2018: 7th FYP Showcase, KICT, Gombak</h4>
+          <ul>
+            <li>Committee of Special Task</li>
+          </ul><br>
+        <h4>December 2018: 8th FYP Showcase, KICT, Gombak</h4>
+          <ul>
+            <li>Committee of Publication and Promotion</li>
+          </ul>
+      </ul>
+    </div>
+
+    <div class="sect_skill">
+      <h1><img src="https://img.icons8.com/color/50/000000/development-skill.png">&nbsp<mark style="background-color: pink;">Skills</mark></h1>
+      <br>
+
+        <h4>HTML/CSS/JAVASCRIPT</h4>
+        <br>
+          <ul>
+            <li><div class="container">
+              <div class="skills html">75%</div>
+            </div>
+            </li>
+          </ul>
+        <br>
+
+        <h4>C/C++</h4>
+        <br>
+          <ul>
+            <li><div class="container">
+              <div class="skills cplus">67%</div>
+            </div>
+            </li>
+          </ul>
+        <br>
+
+        <h4>English Speaking/ Writing</h4>
+        <br>
+          <ul>
+            <li><div class="container">
+              <div class="skills english">85%</div>
+            </div>
+            </li>
+          </ul>
+        <br>
+
+        <h4>Malay Speaking/ Writing</h4>
+          <br>
+            <ul>
+              <li><div class="container">
+                <div class="skills malay">93%</div>
+              </div>
+              </li>
+            </ul>
+          <br>
+    </div>
+
+    <div class="about">
+      <h1><img src="https://img.icons8.com/dusk/50/000000/compact-camera.png">&nbsp<mark style="background-color: pink;">Photography</mark></h1>
+      <br>
+
+      <p style="text-align: center;">Passionate in photography (especially candid and scenery pictures!)</p>
+      <br>
+
+        <div class="slideshow-container">
+
+          <div class="mySlides fade">
+            <img src="picture2.jpg" style="width:100%">
+            <div class="text">View from my room, CFS PJ</div>
+          </div>
+
+          <div class="mySlides fade">
+              <img src="picture1.jpg" style="width:100%">
+            <div class="text">IKEA, Cheras</div>
+          </div>
+
+          <div class="mySlides fade">
+              <img src="picture3.jpg" style="width:100%">
+              <div class="text">Ipoh, Perak</div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="picture4.jpg" style="width:100%">
+                <div class="text">Terengganu</div>
+              </div>
+
+          </div>
+        <br>
+
+        <div style="text-align:center">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+
+        </div>
+
+    </div>
+
+    <script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+    </script>
+
+  </body>
+</html>
